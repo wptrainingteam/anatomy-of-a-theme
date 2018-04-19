@@ -15,8 +15,8 @@ After completing this lesson, you will be able to:
 
 You will be better equipped to work through this lesson if you have experience in and familiarity with:
 
-*   Basic knowledge of [installing and activating WordPress themes](https://make.wordpress.org/training/handbook/user-lessons/choosing-and-installing-a-theme/)
-*   Basic knowledge of HTML, [CSS](https://make.wordpress.org/training/handbook/theme-school/intro-to-css/), and [PHP](https://github.com/wptrainingteam/introduction-to-php)
+*   Basic knowledge of [installing and activating WordPress themes](https://github.com/wptrainingteam/choosing-and-installing-themes)
+*   Basic knowledge of HTML, [CSS](https://github.com/wptrainingteam/introduction-to-css), and [PHP](https://github.com/wptrainingteam/introduction-to-php)
 
 ## Assets
 
@@ -38,11 +38,11 @@ You will be better equipped to work through this lesson if you have experience i
 
 WordPress is built to be flexible and builds the pages you see on the screen in blocks. A very common arrangement of these blocks includes the `header.php`, `sidebar.php`, `index.php`, and `footer.php` files and looks like this: 
 
-[![WordPress Basic Page Structure](http://make.wordpress.org/training/files/2014/07/wordpress-basic-structure-1024x791.png)](http://make.wordpress.org/training/files/2014/07/wordpress-basic-structure.png) 
+![WordPress Basic Page Structure](/images/wordpress-basic-structure.png) 
 
 These files (and their corresponding blocks) can be moved around, replaced with other files, have additional files added, or can be removed entirely. For example, an alternative way to arrange the blocks would be. 
 
-[![wp_structure_modified](https://make.wordpress.org/training/files/2014/10/wp_structure_modified-1024x791.jpg)](https://make.wordpress.org/training/files/2014/10/wp_structure_modified.jpg) 
+![wp_structure_modified](/images/wp_structure_modified.jpg)
 
 So how does WordPress do this? It starts with the URL. Your web browser knows that when you type in www.wordpress.org you're really asking to go to `http://www.wordpress.org/index.php`. All web browsers have default files they look for at a web address, and in the case of a WordPress site that default will be the `index.php` file. So now that WordPress has located the `index.php` file, this is what the code in the world's simplest index.php file looks like: 
 
