@@ -2,7 +2,7 @@
 
 ## Description
 
-In this lesson you'll learn about the different files that make up a theme and how they work together to display your website.
+In this lesson you'll learn about the different files that make up a theme and how they work together to display your WordPress website.
 
 ## Objectives
 
@@ -16,7 +16,7 @@ After completing this lesson, you will be able to:
 You will be better equipped to work through this lesson if you have experience in and familiarity with:
 
 *   Basic knowledge of [installing and activating WordPress themes](https://make.wordpress.org/training/handbook/user-lessons/choosing-and-installing-a-theme/)
-*   Basic knowledge of HTML, [CSS](https://make.wordpress.org/training/handbook/theme-school/intro-to-css/), and PHP
+*   Basic knowledge of HTML, [CSS](https://make.wordpress.org/training/handbook/theme-school/intro-to-css/), and [PHP](https://github.com/wptrainingteam/introduction-to-php)
 
 ## Assets
 
