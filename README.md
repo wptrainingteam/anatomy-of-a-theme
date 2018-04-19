@@ -36,7 +36,20 @@ You will be better equipped to work through this lesson if you have experience i
 
 ### How a Page is Constructed
 
-WordPress is built to be flexible and builds the pages you see on the screen in blocks. A very common arrangement of these blocks includes the `header.php`, `sidebar.php`, `index.php`, and `footer.php` files and looks like this: [![WordPress Basic Page Structure](http://make.wordpress.org/training/files/2014/07/wordpress-basic-structure-1024x791.png)](http://make.wordpress.org/training/files/2014/07/wordpress-basic-structure.png) These files (and their corresponding blocks) can be moved around, replaced with other files, have additional files added, or can be removed entirely. For example, an alternative way to arrange the blocks would be. [![wp_structure_modified](https://make.wordpress.org/training/files/2014/10/wp_structure_modified-1024x791.jpg)](https://make.wordpress.org/training/files/2014/10/wp_structure_modified.jpg) So how does WordPress do this? It starts with the URL. Your web browser knows that when you type in www.wordpress.org you're really asking to go to `http://www.wordpress.org/index.php`. All web browsers have default files they look for at a web address, and in the case of a WordPress site that default will be the `index.php` file. So now that WordPress has located the `index.php` file, this is what the code in the world's simplest index.php file looks like: [php] <?php get_header(); get_sidebar(); if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; get_footer(); ?> [/php] Notice that it calls the header (`header.php`), then it calls the sidebar (`sidebar.php`), then it runs the loop and grabs the content, and finally adds the footer (`footer.php`). Many themes include much more than these bare minimum files, such as additional stylesheets and JavaScript files. With larger themes it's a good idea to keep files organized using folders. The recommended folder structure in this case should include:
+WordPress is built to be flexible and builds the pages you see on the screen in blocks. A very common arrangement of these blocks includes the `header.php`, `sidebar.php`, `index.php`, and `footer.php` files and looks like this: 
+
+[![WordPress Basic Page Structure](http://make.wordpress.org/training/files/2014/07/wordpress-basic-structure-1024x791.png)](http://make.wordpress.org/training/files/2014/07/wordpress-basic-structure.png) These files (and their corresponding blocks) 
+
+can be moved around, replaced with other files, have additional files added, or can be removed entirely. For example, an alternative way to arrange the blocks would be. 
+[![wp_structure_modified](https://make.wordpress.org/training/files/2014/10/wp_structure_modified-1024x791.jpg)](https://make.wordpress.org/training/files/2014/10/wp_structure_modified.jpg) 
+
+So how does WordPress do this? It starts with the URL. Your web browser knows that when you type in www.wordpress.org you're really asking to go to `http://www.wordpress.org/index.php`. All web browsers have default files they look for at a web address, and in the case of a WordPress site that default will be the `index.php` file. So now that WordPress has located the `index.php` file, this is what the code in the world's simplest index.php file looks like: 
+
+```
+<?php get_header(); get_sidebar(); if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; get_footer(); ?> 
+```
+
+Notice that it calls the header (`header.php`), then it calls the sidebar (`sidebar.php`), then it runs the loop and grabs the content, and finally adds the footer (`footer.php`). Many themes include much more than these bare minimum files, such as additional stylesheets and JavaScript files. With larger themes it's a good idea to keep files organized using folders. The recommended folder structure in this case should include:
 
 *   `/css/` - additional CSS files, such as `mobile.css`, that the theme uses; NOTE that the `style.css` file must remain in the main theme folder
 *   `/js/` - JavaScript files
