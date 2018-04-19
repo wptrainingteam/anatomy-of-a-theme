@@ -48,13 +48,16 @@ So how does WordPress do this? It starts with the URL. Your web browser knows th
 
 ```
 <?php 
-get_header(); 
-get_sidebar(); 
-if ( have_posts() ) : while ( have_posts() ) : the_post(); 
-the_content(); 
-endwhile; 
-endif; 
-get_footer(); ?> 
+   get_header(); 
+   get_sidebar(); 
+      if ( have_posts() ) : 
+         while ( have_posts() ) : 
+            the_post(); 
+               the_content(); 
+         endwhile; 
+      endif; 
+   get_footer(); 
+?> 
 ```
 
 Notice that it calls the header (`header.php`), then it calls the sidebar (`sidebar.php`), then it runs the loop and grabs the content, and finally adds the footer (`footer.php`). 
