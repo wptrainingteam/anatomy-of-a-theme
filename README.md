@@ -42,7 +42,7 @@ WordPress is built to be flexible and builds the pages you see on the screen in 
 
 These files (and their corresponding blocks) can be moved around, replaced with other files, have additional files added, or can be removed entirely. For example, an alternative way to arrange the blocks would be. 
 
-![wp_structure_modified](/images/wp_structure_modified.jpg)
+![wp_structure_modified](/images/wordpress-basic-strucure-sidebarright.jpg)
 
 So how does WordPress do this? It starts with the URL. Your web browser knows that when you type in www.wordpress.org you're really asking to go to `http://www.wordpress.org/index.php`. All web browsers have default files they look for at a web address, and in the case of a WordPress site that default will be the `index.php` file. So now that WordPress has located the `index.php` file, this is what the code in the world's simplest index.php file looks like: 
 
