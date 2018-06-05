@@ -6,7 +6,7 @@ In this lesson you'll learn about the different files that make up a theme and h
 
 ## Objectives
 
-After this lesson, participants will be able to:
+After completing this lesson, participants will be able to:
 
 *   Recognize that many files are needed to make a theme.
 *   Identify the basic blocks are used in a WordPress theme.
@@ -65,6 +65,7 @@ You will get the most from this lesson if you have familiarity with:
 
 *   [Twenty Thirteen theme](http://wordpress.org/themes/twentythirteen)
 *   Text editor to view PHP, HTML, CSS, and other files
+*   [Slides](https://rawgit.com/wptrainingteam/anatomy-of-a-theme/master/slides/index.html) (included in this repo)
 
 ## Notes for the Instructor
 
@@ -93,14 +94,14 @@ You will get the most from this lesson if you have familiarity with:
 **Which files make up the structure of a basic WordPress page?**
 
 1.  header.php, sidebar.php, index.php, footer.php
-2.  header.php, sidebar.php, function.php,footer.php
+2.  header.php, sidebar.php, function.php, footer.php
 3.  homepage.php, header.php, index.php, footer.php
 
 **Answer:** 1\. header.php, sidebar.php, index.php, footer.php
 
 **Which files are **required** for a WordPress theme?**
 
-1.  blog.php, page.php style.css
+1.  blog.php, page.php, and style.css
 2.  index.php and style.css
 3.  header.php and footer.php
 
