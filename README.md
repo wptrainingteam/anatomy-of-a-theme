@@ -65,7 +65,7 @@ You will get the most from this lesson if you have familiarity with:
 
 *   [Twenty Thirteen theme](http://wordpress.org/themes/twentythirteen)
 *   Text editor to view PHP, HTML, CSS, and other files
-*   [Slides](https://rawgit.com/wptrainingteam/anatomy-of-a-theme/master/slides/index.html) (included in this repo)
+*   [Slides](https://rawgit.com/wptrainingteam/anatomy-of-a-theme/dev/slides/index.html) (included in this repo)
 
 ## Notes for the Instructor
 
