@@ -2,7 +2,7 @@
 
 ## Description
 
-In this lesson you'll learn about the different files that make up a theme and how they work together to display your WordPress website.
+In this lesson you'll learn all about the different files that make up a theme and how they work together to display your WordPress website.
 
 ## Objectives
 
