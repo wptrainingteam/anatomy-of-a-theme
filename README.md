@@ -67,6 +67,7 @@ You will get the most from this lesson if you have familiarity with:
 *   A text editor to view PHP, HTML, CSS, and other files.
 *   [Slides](https://rawgit.com/wptrainingteam/anatomy-of-a-theme/dev/slides/index.html) (included in this repo.)
 
+
 ## Notes for the Instructor
 
 *   While there may be "wrong" ways to put together a theme, there is no one "right" way. These examples are very simplistic and are not meant to serve as comprehensive guides. There are other, completely valid ways of structuring themes.
