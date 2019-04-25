@@ -2,6 +2,7 @@
 
 ## Description
 
+
 In this lesson, you'll learn about the different files that make up a theme and how they work together to display your WordPress website.
 
 ## Objectives
@@ -66,6 +67,7 @@ You will get the most from this lesson if you have familiarity with:
 *   [Twenty Thirteen theme.](http://wordpress.org/themes/twentythirteen)
 *   A text editor to view PHP, HTML, CSS, and other files.
 *   [Slides](https://rawgit.com/wptrainingteam/anatomy-of-a-theme/dev/slides/index.html) (included in this repo.)
+
 
 ## Notes for the Instructor
 
