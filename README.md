@@ -2,7 +2,6 @@
 
 ## Description
 
-
 In this lesson, you'll learn about the different files that make up a theme and how they work together to display your WordPress website.
 
 ## Objectives
@@ -91,7 +90,7 @@ You will get the most from this lesson if you have familiarity with:
 1.  Use pseudo-code (an informal high-level description) to outline the files needed to implement the basic structure of a WordPress page that would include a sidebar on the right.
 2.  Install the [Twenty Thirteen](http://wordpress.org/themes/twentythirteen) theme or another WordPress theme and examine its files and folder structure.
 
-## Quiz
+## Assessment
 
 **Which files make up the structure of a basic WordPress page?**
 
@@ -99,7 +98,7 @@ You will get the most from this lesson if you have familiarity with:
 2.  header.php, sidebar.php, function.php, footer.php
 3.  homepage.php, header.php, index.php, footer.php
 
-**Answer:** 1. header.php, sidebar.php, index.php, footer.php
+**Answer:** 1\. header.php, sidebar.php, index.php, footer.php
 
 **Which files are _required_ for a WordPress theme?**
 
@@ -107,7 +106,7 @@ You will get the most from this lesson if you have familiarity with:
 2.  index.php and style.css
 3.  header.php and footer.php
 
-**Answer:** 2. index.php and style.css
+**Answer:** 2\. index.php and style.css
 
 ## Additional Resources
 
@@ -201,4 +200,4 @@ That's a lot of PHP files! So how does WordPress know which file to use? That's 
 
 ### Lesson Wrap Up
 
-![](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/lightbulb.png) Follow with exercises and assessment outlined above.
+> ![](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/lightbulb.png) Follow with exercises and assessment outlined above.
